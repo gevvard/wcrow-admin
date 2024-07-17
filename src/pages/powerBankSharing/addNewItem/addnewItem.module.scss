@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  .button {
+    width: 200px;
+    height: 50px;
+
+  }
+
+  .input {
+    width: 220px;
+
+  }
+
+}

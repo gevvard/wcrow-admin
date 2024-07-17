@@ -1,0 +1,48 @@
+.registerContainer{
+  width: 30%;
+  min-width: 300px;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+  padding: 64px;
+  .firstName{
+    width: 100%;
+  }
+  .lastName{
+    width: 100%;
+  }
+  .email{
+    width: 100%;
+  }
+  .password{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+    border-width: 0 0 1px;
+    border-color: darkgrey;
+  }
+  button{
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    border-width: 0 0 1px;
+    margin: 2%;
+
+    &:hover{
+      background-color: grey;
+    }
+
+  }
+  a {
+    color: #0008C1;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+}
