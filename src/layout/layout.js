@@ -5,6 +5,7 @@ import Section from "../section";
 
 const Layout = () => {
   return (
+
     <div>
       <Section/>
     </div>

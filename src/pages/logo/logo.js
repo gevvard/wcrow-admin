@@ -5,7 +5,7 @@ import css from './logo.module.scss'
 const Logo = () => {
   return (
     <div>
-      <img src={logo} alt=""/>
+      <img  alt=""/>
     </div>
   );
 };

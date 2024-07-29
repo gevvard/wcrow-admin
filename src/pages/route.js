@@ -1,19 +1,18 @@
 import SignIn from "./signIn/signIn";
 import {
-  BIKE_SHARING,
-  CONTACT_PAGE, HOME,
 
-  POWER_BANK_SHARING,
+  ABOUTUS_PAGE, HOME,
+  PORTFOLIO_PAGE,
   REGISTER_PAGE,
-  SCOOTER_SHARING,
+  BLOG_PAGE,
   SIGN_IN
 } from "../utils/url";
 import Register from "./register";
+import AboutUs from "./about us"
+import Portfolio from "./portfolio";
+import Blog from "./blog";
 
-import BikeSharing from "./bikeSharing";
-import ScooterSharing from "./scooterSharing";
-import PowerBankSharing from "./powerBankSharing";
-import ContactUs from "./contactUs";
+
 import Home from "./home";
 
 export const authRoutes = [
@@ -24,24 +23,20 @@ export const authRoutes = [
   },
 
   {
-    name:'Bike Sharing',
-    element: <BikeSharing/>,
-    path:BIKE_SHARING
+    name:'Portfolio',
+    element: <Portfolio/>,
+    path:PORTFOLIO_PAGE
+  },
+  
+  {
+    name: ' About us',
+    element: <AboutUs/>,
+    path:ABOUTUS_PAGE
   },
   {
-    name:'Scooter Sharing',
-    element: <ScooterSharing/>,
-    path:SCOOTER_SHARING
-  },
-  {
-    name:'Power Bank Sharing',
-    element: <PowerBankSharing/>,
-    path:POWER_BANK_SHARING
-  },
-  {
-    name: ' Contact Us',
-    element: <ContactUs/>,
-    path:CONTACT_PAGE
+    name: ' Blog',
+    element: <Blog/>,
+    path:BLOG_PAGE
   }
 
 ]

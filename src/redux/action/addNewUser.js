@@ -4,7 +4,6 @@ import requests from "../../services";
 const addNewUser = (data) => async (dispatch) => {
 
   dispatch({type: "LOADING",});
-  console.log("----->",data)
   try {
     const response = await axios.post(`http://localhost:8080/auth/register`, data);
     dispatch({

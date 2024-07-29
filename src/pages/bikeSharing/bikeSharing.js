@@ -1,7 +1,7 @@
 import React from "react";
 import Tariffs from "./tariffs/tariffs";
 import Planss from "./plans/planss";
-import ImageUpload from "./ImageUpload"
+import ImageUpload from "../../components/imageUpload/ImageUpload"
 
 
 

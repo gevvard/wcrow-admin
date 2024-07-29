@@ -7,7 +7,7 @@ const Pages = () => {
   const navigateTo = useNavigate();
   const { user } = useSelector((state) => state?.signIn);
   const isAuthenticated = user?.accessToken || localStorage.getItem("token");
-  console.log("isAuthenticated",isAuthenticated)
+
   useEffect(() => {
     if (isAuthenticated) {
       navigateTo(authRoutes[0]?.path);

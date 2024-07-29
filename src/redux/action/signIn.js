@@ -15,12 +15,16 @@ export const signIn = (data) => async (dispatch) => {
     dispatch({
       type: "NO_LOADING",
     });
+    // response.data ? localStorage.setItem("token", response.data.content.token):"";
+    console.log("token",response.data)
     if (response.data) {
+      localStorage.setItem("token", response.data.accessToken);
       dispatch({
         type: "SIGN_IN",
         payload: response.data,
       });
-      localStorage.setItem("token", response.data.content.token);
+
+
     }
   } catch (e) {
     console.log(e);
