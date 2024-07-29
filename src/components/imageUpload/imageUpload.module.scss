@@ -1,0 +1,69 @@
+// ImageUpload.scss
+
+$image-upload-bg: #f9f9f9;
+$primary-color: #007bff;
+$primary-hover-color: darken($primary-color, 10%);
+$text-color: #333;
+$border-radius: 5px;
+$padding: 20px;
+$font-family: 'Arial, sans-serif';
+$input-bg: #fff;
+$input-border: #ddd;
+
+.image-upload-container {
+  background: $image-upload-bg;
+  padding: $padding;
+  border-radius: $border-radius;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: $font-family;
+  color: $text-color;
+
+  h2 {
+    margin-bottom: 20px;
+    color: $primary-color;
+  }
+
+  h3 {
+    margin: 20px 0;
+    color: $text-color;
+    word-break: break-all;
+  }
+
+  input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: $input-bg;
+    border: 1px solid $input-border;
+    border-radius: $border-radius;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+
+    &:hover {
+      border-color: $primary-color;
+    }
+  }
+
+  button {
+    background: $primary-color;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: $primary-hover-color;
+    }
+  }
+
+  p {
+    margin-top: 20px;
+    color: $text-color;
+  }
+}

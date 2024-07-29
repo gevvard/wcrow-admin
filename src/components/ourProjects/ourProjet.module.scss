@@ -1,0 +1,85 @@
+// OurProject.module.scss
+
+.project-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+
+  h2 {
+    text-align: center;
+    color: #007bff;
+  }
+
+  .project-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background-color: darken(#007bff, 10%);
+      }
+    }
+  }
+
+  .project-list {
+    list-style: none;
+    padding: 0;
+
+    .project-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 10px;
+
+      .project-info {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+          margin: 0;
+          color: #333;
+        }
+
+        p {
+          margin: 0;
+          color: #666;
+        }
+      }
+
+      button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff4d4d;
+        color: white;
+        cursor: pointer;
+        transition: background 0.3s;
+
+        &:hover {
+          background-color: darken(#ff4d4d, 10%);
+        }
+      }
+    }
+  }
+}
