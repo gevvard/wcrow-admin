@@ -5,7 +5,7 @@ const addData = (data) => async (dispatch, getState) => {
   console.log("data",data)
   dispatch({ type: "LOADING" });
   try {
-    const token = getState().auth.token;
+    const token = localStorage.getItem('token');
     console.log("token",token)
     const response = await axios.post(`http://localhost:8080/data`, data, {
       headers: {

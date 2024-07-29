@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import React, { useState,useEffect } from 'react';
+import { useDispatch,useSelector } from 'react-redux';
+import {getDataThunk} from "../../redux/action/getData"
 import css from "./ourProjet.module.scss";
 import ImageUpload from "../imageUpload/ImageUpload";
 import addData from "../../redux/action/addData";
-
 
 const OurProject = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [imageData, setImageData] = useState(null);
   const dispatch = useDispatch();
-  console.log(imageData,"---------->")
+  const { getData } = useSelector((state) => state.getDataReducer);
+
+
   const handleAddProject = () => {
-    if (!title || !description || !imageData) {
+    if (!title || !description || !imageData?.url) {
       alert('Please fill in all fields and upload an image.');
       return;
     }
@@ -23,14 +25,16 @@ const OurProject = () => {
       img: imageData.url,
     };
 
-
     dispatch(addData({ ourproject: newProject }));
-    console.log(newProject,"newProject--------------------------------------kmhim")
+    console.log(newProject, "newProject--------------------------------------kmhim");
     setTitle('');
     setDescription('');
     setImageData(null);
   };
-
+  useEffect(()=>{
+    dispatch(getDataThunk())
+  },[dispatch])
+  console.log("getDAta",getData)
   return (
     <div className={css['project-container']}>
       <h2>Our Projects</h2>

@@ -6,11 +6,12 @@ export const getDataThunk = ()=>async (dispatch)=>{
     type: "LOADING",
   });
   try{
-    const response = await axios.get(requests.data)
+    const response = await axios.get(`http://localhost:8080/data`)
     dispatch({
-      type:'GET_MIMO_DATA',
+      type:'GET_DATA',
       payload:response.data
     })
+    console.log(response.data)
     dispatch({
       type: "NO_LOADING",
     });

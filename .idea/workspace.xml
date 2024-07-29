@@ -4,49 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="377bd5f0-37f9-4fed-a241-0fc99ca2af4c" name="Changes" comment="">
+    <list default="true" id="377bd5f0-37f9-4fed-a241-0fc99ca2af4c" name="Changes" comment="ourProjects">
+      <change afterPath="$PROJECT_DIR$/src/redux/reducer/getData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/bikeSharing/ImageUpload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/bikeSharing/bikeSharing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bikeSharing/bikeSharing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contactUs/contactUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contactUs/contactUs.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contactUs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/logo/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/logo/logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/addNewItem/addNewItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/addNewItem/addnewItem.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/editCountryList/editCountryList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/editCountryList/editCountryList.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/plans/plans.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/plans/planss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/powerBankSharing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/powerBankSharing.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/powerBankSharingItem/powerBankSharingItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/powerBankSharingItem/powerBankSharingItem.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/tariffs/tariffs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/powerBankSharing/tariffs/tariffs.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/addNewItem/addNewItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/addNewItem/addnewItem.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/editCountryList/editCountryList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/editCountryList/editCountryList.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/scooterSharing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/scooterSharing.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/scooterSharingItem/scooterSharingItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/scooterSharingItem/scooterSharingItem.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/tariffs/tariffs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scooterSharing/tariffs/tariffs.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action/addNewUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/addNewUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action/contactUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/signIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/contactUs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/imageUpload/ImageUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/imageUpload/ImageUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ourProjects/ourProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ourProjects/ourProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/addData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/addData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/getData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/mimoData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/url.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +58,41 @@
       <workItem from="1721063205819" duration="3695000" />
       <workItem from="1721220057094" duration="49000" />
       <workItem from="1721220413610" duration="9399000" />
-      <workItem from="1722260303359" duration="949000" />
+      <workItem from="1722260303359" duration="5780000" />
     </task>
+    <task id="LOCAL-00001" summary="ourProjects">
+      <created>1722262039232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722262039232</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ourProjects">
+      <created>1722262092695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722262092695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ourProjects" />
+    <option name="LAST_COMMIT_MESSAGE" value="ourProjects" />
   </component>
 </project>
